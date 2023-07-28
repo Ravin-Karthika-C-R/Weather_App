@@ -49,10 +49,10 @@ button:hover {
     background: #7c7c7c6b;
 }
 
-.c1{
+.card1{
     margin-top: 50px;
 }
-.c1:hover{
+.card1:hover{
     box-shadow:  0px 0px 10px black;
     transform: scale(1.08);
 }
@@ -66,26 +66,22 @@ button:hover {
     color:white;
     background-color: #ffffff61;
     background-clip: padding-box;
-    border: var(--bs-border-width) solid var(--bs-border-color);
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border-radius: var(--bs-border-radius);
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
 }
 .form-control::placeholder{
     color: aliceblue;
 }
-.c1 i{
+.card1 i{
     color: #fffffffe;
     font-size: 60px;
 }
 .row .card{
     box-shadow:  0px 0px 10px black;
+
     text-align: center;
 }
-.c2{
-    border: 15px solid #ffffff2c;
+.card2{
+    border: 5px solid #442900;
     color: white;
 }
 .bt1{
