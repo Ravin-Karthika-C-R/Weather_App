@@ -1,22 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
-}
-
 body {
     background-image: url('./3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
     font-family: 'Open Sans', sans-serif;
-    font-size: 120%;
+    
 }
 
 .card {
@@ -24,12 +11,7 @@ body {
     color: aliceblue;
     text-align: center;
     background: #000000d0;
-    color: white;
-    padding: 2em;
-    border-radius: 30px;
-    width: 100%;
-    max-width: 420px;
-    margin: 1em;
+    
 }
 
 .search {
@@ -85,17 +67,48 @@ h1.temp {
     margin-left: 8px;
 }
 
-/* .weather.loading {
-    visibility: hidden;
-    max-height: 20px;
-    position: relative;
+.c1{
+    margin-top: 50px;
+}
+.c1:hover{
+    box-shadow:  0px 0px 10px black;
+    transform: scale(1.08);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color:white;
+    background-color: #ffffff61;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control::placeholder{
+    color: aliceblue;
+}
+.c1 i{
+    color: #fffffffe;
+    font-size: 60px;
+}
+.row .card{
+    box-shadow:  0px 0px 10px black;
+    float: left;
+    text-align: center;
+}
+.c2{
+    border: 15px solid #ffffff2c;
+    color: white;
+}
+.bt1{
+    font-family: cinzel;
+    margin-left: 40%;
 }
 
-.weather.loading:after {
-    visibility: visible;
-    content: "Loading...";
-    color: white;
-    position: absolute;
-    top: 0;
-    left: 20px;
-} */
